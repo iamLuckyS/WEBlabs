@@ -1,0 +1,72 @@
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" type="text/css" href="style.css">
+    <title>Document</title>
+</head>
+<body>
+    <table width="50%" border="1">
+        <tr>
+            <th colspan="3">Pizza Shop 2.0</th>
+        </tr>
+        <tr>
+            <th>Name</th>
+            <th colspan="2"><input class="entname" type="text"></th>
+        </tr>
+        <tr>
+            <th>Pizza Topping</th>
+            <th colspan="2"> 
+                <form>
+               <input type="radio" id="r1" value="1" name="pt">
+                    <label for="r1">Supreme</label>
+                <input type="radio" id="r2" value="2" name="pt">
+                    <label for="r2">Vegetarian</label>
+                <input type="radio" id="r3" value="3" name="pt">
+                    <label for="r3">Hawaian</label>
+                </form>
+             </th>
+        </tr>
+        <tr>
+            <th>Pizza Sauce</th>
+            <th colspan="2">
+            <select>
+                <option>
+                    Tomato
+                </option>
+                <option>
+                    Pineapple
+                </option>
+                <option>
+                    Ohyrok
+                </option>
+            </select>
+        </th>
+        </tr>
+    
+            <th>Optional Extras</th>
+            <th colspan="2">
+                <form>
+                    <input type="checkbox" name="op" id="c1" value="q1">
+                    <label for="c1">Extra Cheeeeese</label>
+                    <input type="checkbox" name="op" id="c2" value="q2">
+                    <label for="c2">Gluten Free Base</label>
+                </form>
+            </th>
+        </tr>
+        <tr>
+            <th colspan="3">
+                <p>Delivery Instructions</p>
+                <textarea></textarea>
+            </th>
+        </tr>
+        <tr>
+            <th colspan="3">
+                <button type="submit">Submit</button>
+            </th>
+        </tr>
+    </table>
+    
+</body>
+</html>
